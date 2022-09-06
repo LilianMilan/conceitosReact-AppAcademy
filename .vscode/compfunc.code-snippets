@@ -1,0 +1,19 @@
+{
+	"Print to console": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "nativecomp",
+		"body": [
+			"import React from 'react';",
+			"import { Text, StyleSheet } from 'react-native'",
+			"",
+			"function NomeComp() {",
+			"",
+			" return (",
+			" <Text>NomeComp</Text>",
+			" )",
+			"}",
+			"export default NomeComp"
+		],
+		"description": "default function component"
+	}
+}
