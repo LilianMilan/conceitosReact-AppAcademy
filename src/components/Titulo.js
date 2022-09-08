@@ -5,14 +5,22 @@ function Titulo(props) {
     return (
         <>
             <Text style={styles.Text}>{props.principal}</Text>
-            <Text style={styles.Text2}>{props.secundario}</Text>
+            {
+                props.secundario
+                    ? <Text style={styles.Text2}>{props.secundario}</Text>
+                    : ''
+            }
+
         </>
     )
 }
 
 const styles = StyleSheet.create({
     Text: {
-        fontSize: 30
+        fontSize: 20,
+        textAlign: 'center',
+        fontWeight: 'bold',
+        color: '#000'
     },
     Text2: {
         backgroundColor: '#9393'
