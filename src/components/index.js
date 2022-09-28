@@ -11,7 +11,7 @@ import If from "./If";
 import UsuarioLogado from "./usuarioLogado";
 import ListaProdutos from "./ListaProdutos";
 import ListaComFlatList from "./ListaComFlatList";
-import Forms from './Forms';
+import Forms from './form/Forms';
 
 export {
     Primeiro, CompPadrão, Component1, Component2, Estilos, MinMax,

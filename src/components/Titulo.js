@@ -17,10 +17,11 @@ function Titulo(props) {
 
 const styles = StyleSheet.create({
     Text: {
-        fontSize: 20,
+        fontSize: 25,
         textAlign: 'center',
         fontWeight: 'bold',
-        color: '#000'
+        color: '#000',
+        fontFamily: 'Open Sans',
     },
     Text2: {
         backgroundColor: '#9393'
