@@ -73,7 +73,6 @@ function Forms(props) {
                 <Text style={styles.Text}>ENVIAR</Text>
             </TouchableOpacity>
         </View>
-
     )
 }
 
