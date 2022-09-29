@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Text, View, StyleSheet, TextInput, TouchableOpacity, Button } from 'react-native'
+import { Text, View, StyleSheet, TouchableOpacity } from 'react-native'
 import Titulo from '../Titulo';
 import MaskInput from 'react-native-mask-input';
+
 function Forms(props) {
     function handleForms() {
         const forms = {
@@ -40,7 +41,7 @@ function Forms(props) {
             />
 
             <MaskInput style={styles.Input}
-                placeholder="Digite seu CPF"
+                placeholder="Digite seu CPF ou CNPJ"
                 value={cpf}
                 keyboardType="numeric"
                 onChangeText={setCpf}
@@ -62,7 +63,6 @@ function Forms(props) {
             />
 
             <MaskInput style={styles.Input}
-                type={'datetime'}
                 placeholder="Data de nascimento"
                 value={dtnasc}
                 keyboardType="numeric"
